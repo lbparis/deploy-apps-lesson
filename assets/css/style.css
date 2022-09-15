@@ -1,8 +1,8 @@
 :root {
     /* Uncomment the code below and change the color scheme if desired https://www.w3schools.com/css/css3_variables.asp */
-    /* --primary: rgba(43, 91, 186, 0.6);
+    --primary: rgba(43, 91, 186, 0.6);
     --light: rgb(255,255,255);
-    --greyish: rgb(116 121 129 / 80%); */
+    --greyish: rgb(116 121 129 / 80%); 
 }
 
 html, body {
@@ -74,6 +74,8 @@ img + p > span {
 }
 
 /* Explain in comments below what the media queries are doing in regards to different screen sizes */
+
+/* ADJUSTING THE PAGE FORMATTING TO ADAPT TO DIFFERENT SIZE SCREENS ON DIFERENT TYPES OF MEDIA */
 
 @media screen and (max-width: 992px){
     .custom-text-cont p {
